@@ -5,4 +5,3 @@ I've read numerous books, but fiction, cult and that kina jazz never really got 
 world, like documentaries - (gah, I love documentaries). Those storries, based on reality, those are the exiting!
 
 Horror as fiction falls rather short in my book.
-
