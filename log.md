@@ -5,4 +5,9 @@ When I was a kid, I didn't think mush of books, or at least not the same way as 
 I've read numerous books, but fiction, cult and that kina jazz never really got to me. Storries about happenings around the country and 
 world, like documentaries - (gah, I love documentaries). Those storries, based on reality, those are the really exiting!
 
-Horror as fiction falls rather short in my book.
+Horror as fiction falls rather short in my book. - Famous last words, lol!
+
+-- log 16/6/22 18:30
+
+Making my way to grab some beer from the local shop. Tonight, I'm once again going to the skies! Quite literary actually. You see, YR which is the
+national weather-station-thingy. They have data shared to a python library, and I'm gonna make something with that data!
