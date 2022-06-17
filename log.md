@@ -23,3 +23,4 @@ Yes, I'm still awake, casualy drinking, mostly writing - doing some thinking. I'
 
 -- log 17/6/22 06:00
 Well, took 5 hours, still got down to what the issue was, solved it buy editing how the interface worked. Could always be smoother, but its not too bad as it is now - need to make some comments so its easier to pick up later on I guess. Oh right, it's Friday. Guess it's time for some more beer. mm, yes, it is indeed. :D
+[SuperShopper version 1.0.5](https://github.com/p3k4/Skewl/blob/main/SuperShoper1.0.5.py)
