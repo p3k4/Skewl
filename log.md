@@ -31,3 +31,9 @@ Well, took 5 hours, still got down to what the issue was, solved it buy editing 
 -- log 17/6/22 06:20
 
 There, those lovely comments <3. Sober-me gonna thank me later. [SuperShopper.py --Version 1.0.6](https://github.com/p3k4/Skewl/blob/main/SuperShoper1.0.6.py)
+
+-- log 17/6/22 22:00
+
+Awright, Awright Awright! God some awesome tips on how to structure code in the future. Still need to figure a lot of this stuff out, but already knowing some programming in Java and Javascript sure help! It's still Friday, got some sleep and ready to spend the rest of the evening/night same as yesterday. Though, right now I just wanna finish the program I started on. I still have lots of material to go through.
+
+
