@@ -34,6 +34,9 @@ There, those lovely comments <3. Sober-me gonna thank me later. [SuperShopper.py
 
 -- log 17/6/22 22:00
 
-Awright, Awright Awright! God some awesome tips on how to structure code in the future. Still need to figure a lot of this stuff out, but already knowing some programming in Java and Javascript sure help! It's still Friday, got some sleep and ready to spend the rest of the evening/night same as yesterday. Though, right now I just wanna finish the program I started on. I still have lots of material to go through.
+Awright, Awright Awright! God some awesome tips on how to structure code in the future. Still need to figure a lot of this stuff out, but already knowing some programming in Java and Javascript sure help! It's still Friday, got some sleep and ready to spend the rest of the evening/night same as yesterday. Though, right now I just wanna finish the basics in program I started on. I still have lots of material to go through in the book.
 
+-- log 17/6/22 22:35
+
+Alright kids, it's not much but it's honest work. [SuperShopper.1.1.0]()
 
