@@ -30,4 +30,4 @@ Well, took 5 hours, still got down to what the issue was, solved it buy editing 
 
 -- log 17/6/22 06:20
 
-There, those lovely comments <3. Sober-me gonna thank me later on.. [SuperShopper.py --Version 1.0.6]
+There, those lovely comments <3. Sober-me gonna thank me later on.. [SuperShopper.py --Version 1.0.6](https://github.com/p3k4/Skewl/blob/main/SuperShoper1.0.6.py)
