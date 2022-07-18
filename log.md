@@ -40,4 +40,6 @@ Awright, Awright Awright! God some awesome tips on how to structure code in the 
 
 Alright kids, it's not much but it's honest work.
 
+-- log 19/7/22 02:00
 
+Right, I've added soome of the introduction the book goes through - you know the absolute basics. Styill, very fun! 
