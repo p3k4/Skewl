@@ -42,4 +42,4 @@ Alright kids, it's not much but it's honest work.
 
 -- log 19/7/22 02:00
 
-Right, I've added soome of the introduction the book goes through - you know the absolute basics. Styill, very fun! 
+Right, I've added [some of the introduction stuff](https://github.com/p3k4/Skewl/blob/main/notes_1.py) the book goes through - you know, still the absolute basics. 
