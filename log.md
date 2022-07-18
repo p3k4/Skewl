@@ -38,5 +38,6 @@ Awright, Awright Awright! God some awesome tips on how to structure code in the 
 
 -- log 17/6/22 22:35
 
-Alright kids, it's not much but it's honest work. [SuperShopper.1.1.0]()
+Alright kids, it's not much but it's honest work.
+
 
