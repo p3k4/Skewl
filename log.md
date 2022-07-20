@@ -46,4 +46,5 @@ Right, I've added [some of the introduction stuff](https://github.com/p3k4/Skewl
 
 -- log 21/7/22 12:30
 
-Right, first chapter done - feels good, beer is good, I'm good! Notes from chapter [1 and 2 can be found here!](https://github.com/p3k4/Skewl/blob/main/kap%201-2.py)
+Right, first and second chapter done - feels good, beer is good, I'm good! ^____^
+Notes from chapter [1 and 2 can be found here!](https://github.com/p3k4/Skewl/blob/main/kap%201-2.py)
