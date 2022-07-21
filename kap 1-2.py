@@ -263,5 +263,59 @@ from turtle import clear
 # plt.plot(t, A)
 # plt.show()
 
-#Jeg har brukt pip for å installere numpy og matplotlib. Skillz
-
+# Jeg har brukt pip for å installere numpy og matplotlib. #MadSkillz
+#
+# # 2.12 Feilsøking
+#
+# HUSK: Det er både lov og lurt å feile!
+# --------------------------------------------------------------------------------------------------------------------------
+# 1. Les feilmeldingene nøye. Det henvises her ofte til både den aktuelle linja og hva slags type feil vi har med å gjøre!
+#
+# 2. Har du et langt program, kan det være lurt å skrive ut variablene som du lager i starten eller i midten av programmet
+#    for å undersøke/teste om de har blitt laget slik som du ønsker. (Test stuff underveis, ikke skriv mye kode uten å teste.)
+#
+# 3. Kommenter ut dele av koden. Da kan du undersøke den koden som er igjen for å se om feilen ligger der.
+#
+# 4. Dersom du før feilmelding på en bestemt linje, kan det hende feilen ligger i linja over! Dette er fordi en feil i linja
+#    over kan føre til at datamaskinen tror at programmet fortsetter på linja under, og at det er her feilen ligger.
+#
+# 5. Spør noen om å lese gjennom programmet ditt. En blir like blind på sitt eget program som en kan bli på sine egne tekster.
+#    Sammarbeid er viktig i programmering!
+# 
+# 6. Søk opp dokumentasjon på internett! Det finnes antakelig noen som har lurt på det samme som deg. 
+#    Søk på engelsk først, da dette ofte gir best resultater. En god side er www.stackoverflow.com
+#
+# 7. Forklar høyt for noen andre hva programmet ditt gjør, linje for linje. Dersom du ikke har noen andre tilgjengelig, 
+#    kan det hjelpe å snakke høyt, f.eks. til en badeand!
+# 
+# 8. Gå og finn på noe annet, og kom igjen senere. En forfriskende joggetur, en kopp kaffe foran peisen eller en god bok kan 
+#    klarne hodet og gjøre deg klar for nye frustrasjoner!
+# 
+# ----------------------------------------------------------------------------------------------------------------------------- 
+# Kap 1-2. Oppsumering:
+#
+# * Sentrale datatyper: Heltall, flyttall, strenger.
+# * Hvordan vi deklarerer variabler.
+# * Hvordan vi bruker kommentarer i koden.
+# * Output til konsoll.
+# * Input fra bruker.
+# * Hvordan vi lager og behandler lister.
+# * Hvordan vi importerer moduler/bibloteker/pakker.
+# 
+# De viktigste kommandoene og funksjonene vi har sett på er:
+# print()
+# input()
+# int(), float(), str()
+# # <-- kommentarer
+# ""  og ''
+# list.append(element)
+# list.remove(element)
+#
+#
+# ___________________  ___________
+# \_   _____/\_____  \ \_   _____/
+#  |    __)_  /   |   \ |    __)  
+#  |        \/    |    \|     \   
+# /_______  /\_______  /\___  /   
+#         \/         \/     \/ 
+# End OF File...
