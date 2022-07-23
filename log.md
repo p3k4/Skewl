@@ -48,3 +48,6 @@ Right, I've added some of the introduction stuff the book goes through - you kno
 
 Right, first and second chapter done - feels good, beer is good, I'm good! ^____^
 Notes from chapter [1 and 2 can be found here!](https://github.com/p3k4/Skewl/blob/main/kap%201-2.py)
+
+-- log 23/7/22 05:00
+I've started on chapter 3. [File can be found here](https://github.com/p3k4/Skewl/blob/main/kapittel_3_notes.py)
