@@ -149,3 +149,46 @@ def sjekk_6():
     if tall > 42 and tall < 100:
         print("Tallet ligger i intervallet (42,100)")
 # sjekk_6()
+
+# Underveisoppgave 3.1
+# Lag et program som tar alderen til brukere som input. Programmet skal evaluere alderen til
+# personen ved å skrive ut utlike melinger alt ettersom hvilket aldersintervall alderen ligger innenfor.
+# Legg til så mange vilkår som du ønsker.
+
+# Valgte vilkår     outputs
+# < or == 1       : Velkommen til verden lille du!
+# < or == 5       : Nyt tiden frem til du skal på skolen. Lær deg å telle, tegne og snakke
+# < 13            : Fortsett å lær deg nye ting, og bli bedre til det du allerede kan!
+# == 13           : Du kan nå lovelig bestemme din egen hårsveis!
+# == 14           : Fjortis-fjortis!
+# > 12 and < 19   : Du er tennåring, og skal være det i x antall år til!
+# == 16           : Det er nesten sant at du kan nå kjøre moped, lett-motorsykkel og begynne øvelseskjøring!
+# == 18           : Du er nå mynding 
+# < 30            : Du har ennå ikke nådd din beste alder!
+# == 30           : Du har nådd din beste alder!
+# else:           : Du er for gammel til å bruke dette programmet!
+
+def alder():
+    age = int(input("Hvor gammel er du?\n"))
+    if age < 1 or age == 2:
+        print("Velkommen til verden lille du!")
+    elif age < 5 or age == 5:
+        print("Nyt tiden frem til du skal på skolen. Lær deg å telle, tegne og snakke.\nHa det trygt, godt og gøy!")
+    elif age < 13:
+        print("Fortsett å lær deg nye ting, og bli bedre til det du allerede kan!")
+    elif age == 14:
+        print("Fjortis-fjortis!")
+    elif age > 12 and age < 19:
+        rem = 19-age
+        print("Du er tennåring, og skal være det i",rem,"år til!")
+    if age == 16:
+        print("Det er nesten sant at du kan nå kjøre moped, lett-motorsykkel og begynne øvelseskjøring!")
+    elif age == 18:
+        print("Du er nå mynding")
+    elif age < 30:
+        print("Du har ennå ikke nådd din beste alder!")
+    elif age == 30:
+        print("Du har nådd din beste alder!")
+    else:
+        print("Du er for gammel til å bruke dette programmet!")
+#alder()
