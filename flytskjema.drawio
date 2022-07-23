@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T01:20:57.075Z" agent="5.0 (Windows)" etag="rqdd4Slx6NVpgHiP8u7G" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T02:04:46.495Z" agent="5.0 (Windows)" etag="uPFI1DEEpmZqc1S8al1C" version="20.2.0" type="github">
   <diagram id="YP_fGBndzE_oGwtR0qip" name="Page-1">
-    <mxGraphModel dx="352" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="686" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
             <mxPoint x="544" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMVdI3ujb3LrkkelP-kK-7" value="&lt;div&gt;Allmennlig &lt;br&gt;&lt;/div&gt;&lt;div&gt;begynnelse&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="tMVdI3ujb3LrkkelP-kK-7" value="&lt;div&gt;utenfor arbeidstid&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="100" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tMVdI3ujb3LrkkelP-kK-9" value="&lt;div&gt;Allmennlig&lt;/div&gt;&lt;div&gt;slutt&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="tMVdI3ujb3LrkkelP-kK-9" value="&lt;div&gt;Allmennlig&lt;/div&gt;&lt;div&gt;arbeidstid &lt;br&gt;&lt;/div&gt;&lt;div&gt;slutt&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="244" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tMVdI3ujb3LrkkelP-kK-10" value="&lt;div&gt;Allmennlig&lt;/div&gt;&lt;div&gt;overtid&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -28,7 +28,7 @@
             <mxPoint x="304" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMVdI3ujb3LrkkelP-kK-2" value="&amp;lt;15:00" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="tMVdI3ujb3LrkkelP-kK-2" value="&amp;gt;15:00" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="244" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tMVdI3ujb3LrkkelP-kK-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;" parent="1" source="tMVdI3ujb3LrkkelP-kK-9" target="tMVdI3ujb3LrkkelP-kK-2" edge="1">
@@ -68,7 +68,7 @@
             <mxPoint x="524" y="100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMVdI3ujb3LrkkelP-kK-3" value="&lt;div&gt;&amp;lt;6:30&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="tMVdI3ujb3LrkkelP-kK-3" value="&lt;div&gt;&amp;gt;6:30&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="100" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y-4FtceOWZFmE6VFH8u1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMVdI3ujb3LrkkelP-kK-1" target="tMVdI3ujb3LrkkelP-kK-3">
