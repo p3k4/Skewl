@@ -1,5 +1,6 @@
 #---------Importeringer-----------|
 import os
+from re import X
 def clear():                     
     os.system('cls')
 #---------------------------------|
@@ -192,3 +193,80 @@ def alder():
     else:
         print("Du er for gammel til å bruke dette programmet!")
 #alder()
+
+# Figur 3.2 Gjenskapt i et diagram for draw.io (kan fritt importeres)
+# https://github.com/p3k4/Skewl/blob/main/andregradslikninger-diagram 
+# Legg merke til koeffisentene a,b,c i diagramet
+#
+# Underveisoppgave 3.2 utgave 1:
+def likning_1():
+    a = float(input("a =\n"))
+    b = float(input("b =\n"))
+    c = float(input("c =\n"))
+
+    rot = b**2 - 4*a*c
+    if rot > 0:
+        print("Vi får to løsnigner!")
+    elif rot == 0:
+        print("Vi får én løsning!")
+    else:
+        print("Vi får ingen reelle løsninger..")
+# Poenget er ikke å løse andregradslikninger - kan kan vi gjøre for hånd eller på en kalkulator. 
+# Hvilke didaktiske fordeler kan det være med å programmere andregradsformelen?
+#
+# Svar: Vel, jeg er ikke stødig i andregradslikninger. Så det er bra for meg å få repetert slikt,
+# på en annen side er det nok god trening for å utvikle programmer som støtter seg på matematikk generelt.
+# Det må taes noen hensyn og slik når man skal "oversette" formler til kode. Det er alltid gøy å få til på egenhånd.
+# Enn så lenge er jeg glad jeg kan støtte meg på løsningen i boka.
+
+def likning_2():
+    print("Hei, jeg et program som løser andregradslikninger!\nFyll inn verdiene:")
+    a = float(input("a = "))
+    b = float(input("b = "))
+    c = float(input("c = "))
+    
+    rot = b**2 - 4*a*c
+    if rot > 0:
+        x1 = (-rot**0.5)/(2*a)
+        x2 = (-rot**0.5)/(2*a)
+        print(" Vi få to løsniger: x1 =",x1,"og x2=",x2)
+    elif rot == 0:
+        x = -b/(2*a)
+        print(" Vi får én løsning: x=",x)
+    else:
+        print(" Vi får ingen reelle løsninger..")
+#likning_2()
+
+# Jeg leste litt som andregradslikninger og testet med verdiene a = 1 b = 10 og c = -24
+# https://quickmath.com/ kan brukes for å sjekke om det blir riktig.
+# Fra mitt øyemed spytter funksjonen hvertfall ut et svar - jeg er fornøyd, heh.
+
+# Løkker facts:
+# 1) Løkker er fett og kraftige. Use them often and with care!
+# 2) I python er det 2 typer løkker: "while" og "for"
+# 3) En while-løke er det vi kaller en "tilstandsløkke". Den kjører helt frem til en logisk tilstand ikke lenger er oppfylt.
+
+# while-løkke:
+def do_1():
+    c = 0
+    while c < 10:
+        print("Yabadabbadooo!")
+        c += 1 # Husk å avslutte løkka på en måte, ellers blir det nok en del spam.
+#do_1()
+
+# Gjett riktig tall og vinn en bil!
+def winning():
+    w_tall = 1349
+    n = int(input("Gjett riktig tall og vinn en bil!\n"))
+    while n != w_tall:
+        print("Prøv igjen!!")
+        n = int(input(""))
+    clear()
+    print(w_tall, "var riktig!! Gratulerer med din nye lekebil!") # inntrykk-tilbake(in lack of better words..) kjører først når løkka treffer på "sammenlikningen"
+    print("        _______")
+    print("       //  ||\ \"")
+    print(" _____//___||_\ \___")
+    print(" )  _          _    \"")
+    print(" |_/ \________/ \___|")
+    print("___\_/________\_/______")
+#winning()
