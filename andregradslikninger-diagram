@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T04:09:57.290Z" agent="5.0 (Windows)" etag="tnpFJNrSmjZNlgepUUKR" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T04:11:00.365Z" agent="5.0 (Windows)" etag="IJh0JcyeHN-4Qi4OahaL" version="20.2.0" type="github">
   <diagram id="8-t52dJIMjy5xTE8xhOI" name="Page-1">
     <mxGraphModel dx="1422" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="Ynz1DZIR8oZWp-JMzsx_-12" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;a != 0&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="162.5" y="230" width="117.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ynz1DZIR8oZWp-JMzsx_-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ynz1DZIR8oZWp-JMzsx_-13" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Førstegradsuttrykk&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;&quot;&gt;x = -c / b&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="92.5" y="340" width="187.5" height="80" as="geometry" />
         </mxCell>
       </root>
