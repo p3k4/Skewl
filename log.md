@@ -52,7 +52,7 @@ Notes from chapter [1 and 2 can be found here!](https://github.com/p3k4/Skewl/bl
 
 -- log 23/7/22 05:00
 
-I've started on chapter 3. [File can be found here](https://github.com/p3k4/Skewl/blob/main/kapittel_3_notes.py)
+I've started on chapter 3. [Notes can be found here](https://github.com/p3k4/Skewl/blob/main/kapittel_3_notes.py)
 
 -- log 24/7/22 11:00
 
