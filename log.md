@@ -51,3 +51,7 @@ Notes from chapter [1 and 2 can be found here!](https://github.com/p3k4/Skewl/bl
 
 -- log 23/7/22 05:00
 I've started on chapter 3. [File can be found here](https://github.com/p3k4/Skewl/blob/main/kapittel_3_notes.py)
+
+-- log 24/7/22 11:00
+I've made progress in chapter 3 - almost done, 3 pages left before assignments. I'll do those 3 pages later tonight.
+
