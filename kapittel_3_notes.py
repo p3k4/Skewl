@@ -270,3 +270,123 @@ def winning():
     print(" |_/ \________/ \___|")
     print("___\_/________\_/______")
 #winning()
+
+# Flere artige løsniger ved bruk av while-løkke:
+# Hvor-lenge-må-jeg-spare-kalkulator:
+
+def save_it():
+    clear()
+    saldo = int(input("Hva er din startkapital for sparingen?\n"))
+    sum_end = int(input("Hvor mye ønsker du å spare opp til?\n"))
+    r = float(input("Hva er renta?\n"))
+    år = 0
+    
+    while saldo <=sum_end:
+        saldo = round(saldo + saldo * r) # Utregning. La inn en round() for å holde styr på desimalene.
+        år +=1 # For å holde styr på hvor mange år man har spart/ eller må spare.
+        print("år", år, ":", saldo) # Skriver ut år man har spart, og saldo på dette året.
+    print("Det tar", år, "år før du har:", sum_end, "kr.") # Skriver ut antall år og slutt-beløpet.
+#save_it()   
+
+#"for-løkker"
+# Kort oppsumert: For løkker er kjekt når man vet hvor lenge løkka skal kjøre.
+# Funker i prinsippet veldig likt som while-løkker. Vi trenger derimot ikke ha en egen "counter" variabel med for-løkker.
+# Nedenfor er range(1,10) slik : "1" er start-verdien, "10" er sluttverdie. Itterasjonene er: sluttverdien-1
+# En for-løkke er en løkke som gjentar kode. Den er vanlig å benytte sammen med en range() funksjon for telling,
+# eller i kombinasjon med en liste for å iterere over elementer i lista.
+def loop_it():
+    for i in range(1,10): #Legg merke til av vi må bruke ":"
+     print(i," itterasjon")
+#loop_it()
+
+#Skal vi gjøre det samme med 10 itterasjoner må sluttverdien være 11:
+def loop_it_again():
+        for i in range(1,11): # 1,2,3,4,5,6,7,8,9,10
+            print(i, "itterasjon")
+#loop_it_again()
+
+# eksemplet fra boka side 49:
+def loop_2():
+    for i in range(0,5):
+        print(i**2)
+# loop_2()
+
+# range() kan har 3 arumenter; start(fra og med), slutt(til men ikke med) og sist intervallet()
+# La oss skrive ut alle partall mellom 0 og 20 ved bruk av alle disse arumentene:
+
+def count_it():
+    for i in range(0,21,2): # Kunne ha satt startverdien til 2, fordi vi vet at hverken 0 eller 1 er et partall.
+        print(i)
+#count_it()
+
+# I matematikken kan for-løkker vistnok brukes for summerings av "rekkesummer", jeg tenker at dette peker til arrays, men - vi får se.
+# Også nevner boka noe om sigma; sigma-tegnet brukes for summering mellom startverdi og N. Høres kjent ut, uten at jeg har brukt sigma før.
+
+def loop_3():
+    t = 0
+    for i in range(1,6):
+        t += i**2 # legger til svaret i variabel "t" for hver itterasjon
+    print("Summen av kvadratet til de føreste fem tallene er:",t)
+#loop_3()
+
+# for-løkker og lister (ja, dette er mer kjent for meg).
+def itter_it():
+    liste = [1,10,2,4] # liste med heltall
+    for i in liste: # hvor hvert element i lista
+        print(i) # print elementet
+#itter_it()
+
+# Vi kan gjøre dette med alle datatyper i en liste:
+
+def itter_it_2():
+    liste = [1,"2",3.0] # liste med ulike datatyper. Ikke gjør dette (bland ulike datatyper i samme liste) selv om det funker.
+    for i in liste:
+        print(i)
+#itter_it_2()
+
+# Boken ønsker å ta oss tilbake til matematikken
+# her et et ekemepel på for-løkker med andregrads-funksjoner:
+def itter_it_3():
+    liste_a = [-3.0, -2.5 , -2.0, -1.5, -1.0, -0.5, 0.0]
+    liste_b = []
+    for i in liste_a:
+        a = 2*i**2 + 3* i + 1 # (2x^2 + 3x +1)
+        liste_b.append(a) #legger svaret til i den tomme arrayen liste_b
+    print(liste_b)
+#itter_it_3()
+
+# Funksjoner:
+# Som Harry Potter en gang sa: functions are really the bread and butter to wizards!
+# Sier meg enig der.
+# Python har en rekke innebygde funksjoner, og vi kan lage våre egne (som jeg har gjort i store deler av denne fila).
+# Ikke bare fordi jeg kan, men fordi det gjør det langt mer oversiktlig enn å ha en egen .py fil for hvert jævla program.
+
+# Jeg har allerede brukt flere innebygde funksjoner:
+# print()
+# range()
+# round()
+# input()
+# clear() # Denne er riktig nok laget selv, men ved bruk av en inportert modul ("os")
+
+def sum_it():
+    liste = [1,3,14,12,3,14,16,7,22,5,23,46]
+    s_liste = sum(liste)
+    return s_liste # her ønsker jeg kun å returnere en variabel
+# print(sum_it()) # Funksjoner kan kjøre andre funksjoner: her er både print og funksjonen "sum_it" som jeg nettopp laget, i samme funksjon
+
+# Det samme som funksjonen sum gjør, kan gjøres med bare en en for-løkke på flere forskjellige måter:
+def sum_it_2():
+    liste = [1,3,14,12,3,14,16,7,22,5,23,46]
+    a = 0 
+    for i in liste:
+        a += i
+    print(a)
+#sum_it_2()
+
+def sum_it_3():
+    liste = [1,3,14,12,3,14,16,7,22,5,23,46]
+    sum = 0
+    for i in range(len(liste)): # range(len(liste)) betyr "lengden av lista"
+        sum += liste[i] # henter verdien utifra plasseringen i array "liste" og legger til denne i variabelen "sum"
+    print(sum)
+sum_it_3()
