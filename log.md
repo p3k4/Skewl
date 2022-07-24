@@ -47,11 +47,14 @@ Right, I've added some of the introduction stuff the book goes through - you kno
 -- log 21/7/22 12:30
 
 Right, first and second chapter done - feels good, beer is good, I'm good! ^____^
+
 Notes from chapter [1 and 2 can be found here!](https://github.com/p3k4/Skewl/blob/main/kap%201-2.py)
 
 -- log 23/7/22 05:00
+
 I've started on chapter 3. [File can be found here](https://github.com/p3k4/Skewl/blob/main/kapittel_3_notes.py)
 
 -- log 24/7/22 11:00
+
 I've made progress in chapter 3 - almost done, 3 pages left before assignments. I'll do those 3 pages later tonight.
 
