@@ -1,6 +1,5 @@
 #---------Importeringer-----------|
 import os
-from re import X
 def clear():                     
     os.system('cls')
 #---------------------------------|
