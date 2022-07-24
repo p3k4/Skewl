@@ -294,6 +294,9 @@ def save_it():
 # Nedenfor er range(1,10) slik : "1" er start-verdien, "10" er sluttverdie. Itterasjonene er: sluttverdien-1
 # En for-løkke er en løkke som gjentar kode. Den er vanlig å benytte sammen med en range() funksjon for telling,
 # eller i kombinasjon med en liste for å iterere over elementer i lista.
+
+# Vi mennesker kan lettere lese kode dersom variabler og funksjoner har beskrivende navn. Vi kan bruke a,b,c eller f2 og det vil fungere.
+# Men, det er anbefalt å bruke beskrivende navn på funksjoner og variabler likevel.
 def loop_it():
     for i in range(1,10): #Legg merke til av vi må bruke ":"
      print(i," itterasjon")
@@ -368,6 +371,10 @@ def itter_it_3():
 # input()
 # clear() # Denne er riktig nok laget selv, men ved bruk av en inportert modul ("os")
 
+# En definisjon på funksjoner:
+# " En funksjon er en blokk med kode som blir utført når det "kalles" på. En funksjon kan ta ingen, én eller flere parametere som imput, og returnere
+# ingen, en eller flere variabler som output".
+
 def sum_it():
     liste = [1,3,14,12,3,14,16,7,22,5,23,46]
     s_liste = sum(liste)
@@ -389,4 +396,218 @@ def sum_it_3():
     for i in range(len(liste)): # range(len(liste)) betyr "lengden av lista"
         sum += liste[i] # henter verdien utifra plasseringen i array "liste" og legger til denne i variabelen "sum"
     print(sum)
-sum_it_3()
+#sum_it_3()
+
+# Funksjoner continued:
+# La oss si, for dere mattematikk-hoder der ute at vi har en funksjon som er slik: f(x) = x^2
+# I kode kan vi lage denne andregradsfunksjonen til vår egen-hjemme-mekka funksjon:
+def vår_funksjon(x):
+    utregning = x**2 # dette kalles en "retur-variabel", ikke veldig viktig å kunne navnet, men forstå hensikten.
+    return utregning
+
+# Funksjonen har vi sangt skal hete "vår_funksjon" isdeden for "f"
+# Den tar imot et tall, dette er "x" og kalles et "parameter".
+# "utregning" er det som står etter likhets-tegnet i den matematiske funksjonen. Vi har valgt å lage dette som en variabel
+# return er nesten en funksjon, men lettere forstått som et "kodeord". Her sier vi at funksjonen vår skal returnere
+# verdien til variabelen "utregning". Dette er litt uvanlig iforhold til slik jeg har gjort i de fleste kode-snuttene,
+# hvor jeg har brukt print() isteden. Alt til sitt bruk kan man si.
+
+# Vi tester funksjonen med et vilkårlig tall: 3
+# a = vår_funksjon(3)
+# print(a)
+
+# Nice to know: Vi "sender" argumenter(3) til funksjoner, og "definerer" parametere(x)
+# Mange bruker ordet "parameter" for begge deler.
+
+# Underveisoppgavee 3.5
+
+# Lag en funksjon du kaller tredjegrads, som tar x som parameter og regner ut x^3. Bruk funksjonen ved å printe resultatet av åå kalle på funksjonen
+# med noen forskjellige x-verdier.
+def tredjegrads(x):
+    utregning = x**3
+    return utregning
+# print(tredjegrads(3))
+# print(tredjegrads(5))
+# print(tredjegrads(10))
+
+#Funksjoner behøver ikke være matematiske:
+def si_hei():
+    print("Hei på deg!")
+#si_hei()
+
+# Funksjoner med flere parametere:
+def funk_1(x,y,z):
+    a = x**2
+    b = y**2
+    c = z**2
+    return a,b,c
+# test = funk_1(2,4,6)
+# print(test)
+
+# Underveisoppgave 3.6 Fra Fahrenhei til celsius
+# 1) Lag en funksjon temp_celsius som tar inn en temperatur i fahrenhei og returnerer en temeratur i celsius:
+
+# Notat fra internett: To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9).
+def temp_celsius(a):
+    b = (a-32) * 5/9 # subtract 32 and multiply by .5556 (or 5/9).
+    return round(b)
+# temp = temp_celsius(50)
+# print(temp)
+
+# test med flere verdier:
+temp_1 = temp_celsius(45)
+# print(temp_1)
+temp_2 = temp_celsius(50)
+# print(temp_2)
+temp_3 = temp_celsius(70)
+# print(temp_3)
+
+# 3) Hva burde vi kalle variablene slik at andre lett kan forstå hva programmet gjør?
+# Svar: Jeg bruker kommentarer svært mye for å gjøre dette. Men la gå, jeg skal gjøre det mer forstårlig:
+
+def fahrenheit_to_censius(fahrenheit):
+    celsius = (fahrenheit - 32) * 5/9 # Converting it like a pro
+    return round(celsius)
+
+temp_4 = fahrenheit_to_censius(45)
+temp_5 = fahrenheit_to_censius(50)
+temp_6 = fahrenheit_to_censius(70)
+# print(temp_4,temp_5,temp_6)
+
+# Underveisoppgave 3.7:
+# For kodesnutten under, svar på følgende:
+#
+# 1) Hva tror du eleven har prøvd å få til?
+# svar: Lage et program som løser andregradsfunksjoner.
+
+# 2) Hva er output fra programmet?
+# Svar "None", og betyr at "a" ikke har noen verdi
+
+# 3) Hva har eleven misforstått
+# Svar: Man må returnere en verdi for å få det til å fungere.
+
+# 4) Hvordan kan vi rette opp programmet?
+# Svar: Jeg har laget alle kode-snuttene under.
+
+# Kode 1:
+def f_1(x):
+   y = x**2  
+   return y # Feilen er at eleven aldri returnerer variebelen
+# a = f(2)
+# print(a)
+
+# Kode 2:
+def f_2(x):
+   y = x**2  
+   return y # Feilen er at eleven aldri returnerer variebelen
+# a = f(2)    
+# print(a)
+
+# Kode 3:
+for i in range(10):
+    def f(x):
+        return x ** 2
+#    print(f(x)) Her er det skrevet x men når koden blir kjørt uten at x har en verdi, vil man få en nameError hvor x-verdien ikke er definert.
+#                Legges det til en verdi isden, vil koden fungere helt fint - selvom jeg syntes det er rart å definere en funksjon inni en loop.
+
+# Returvariabler:
+def kvadrat_og_rot(tall):
+    kvadrat_rot = tall ** 0.5
+    kvadrat = tall ** 2
+    return kvadrat, kvadrat_rot # Vi kan bruke flere retur variabler, nullstress joggedress.
+
+a, b = kvadrat_og_rot(36)
+#print(a, b)
+
+# Fact: Vi kan lage funksjoner inni funksjoner!
+# Mitt eget ekempel på dette, fordi jeg ikke forstår kjemi-oppgaven i boka side 58/59:
+
+def retur_navn(navn):
+    return navn
+
+def funksjon_i_funksjon():
+    navn = input("Hva heter du?\n")
+    return print("Hei", retur_navn(navn)) # her vil den kjøre funksjonen over "retur_navn" for å returnere "navn"
+# funksjon_i_funksjon()
+
+# Underveisoppgave 3.9:
+# Du har en liste med steder og en liste med badetemp. som du ønsker å printe ut pent i konsollen.
+# Lag en funksjon "celsius_til_fahrenheit" som konverterer temperaturer fra celsius til fahrenheit. Bruk denne funksjonen inni en annen funksjon 
+# "skriv_ut_temperaturer" slik at du skriver ut en liste med temeraturer i fahrenheit.
+
+steder = ["Stavanger","Bodø","Trondheim","Bergen","Kristiansand","Oslo","Halden"]
+temperaturer = [10,14,18,8,17,16,11]
+
+# Vi er smarte og finer formelen til konverteringen: Gange med 1.8 og legg til 32
+def celsius_til_fahrenheit(temp):
+    celisus = (temp * 1.8) + 32
+    return celisus
+
+def skriv_ut_temperaturer(temperaturer):
+    for i in temperaturer:
+        måling = celsius_til_fahrenheit(i) # Her bruker jeg en funksjon inni en annen funksjon.
+        print(måling)
+# skriv_ut_temperaturer(temperaturer)
+
+# Vi skal nå lage noen funksjoner til å finne parameterne til en linær matematisk funksjon fra 2 punkter på grafen til funksjonen!
+# Målepunktene er: p1 = (x1,y1) og p2 =(x2,y2)
+# Poenget er å vise kodeforståelse og matematiske sammenhenger til programmering!
+# Dette er formelen vi skal bruke: f(x) = ax + b
+
+# 1) Lag en funksjon som tar imot 3 parametere, og returnerer funksjons verdien
+# svar:
+def linær_funksjon(a,x,b):
+    posisjon = a * x + b   
+    return posisjon
+
+# Test at linær_funksjon fungerer: Den funker!
+# test = linær_funksjon(2,10,5)
+# print(test)
+
+# 2) Lag en funksjon som tar punktene p1 og p2 som parametere, gjerne som lister.
+def finn_posisjon(liste_1,liste_2):
+    x1 = liste_1[0] # første posisjon
+    y1 = liste_1[1] # første posisjon
+
+    x2 = liste_2[0] # andre posisjon
+    y2 = liste_2[0] # andre posisjon
+
+#    pos1 = (y2-y1) / (x2-x1)  Dette er matematikk.. Denne kalles topunksformelen
+#    pos2 = y1-pos1 * x1       Dette er matematikk.. Denne kalles ettpunksformelen
+#    return pos1, pos2
+
+# Det er ønskelig å ha disse formlene i hver sin funksjon.
+
+def topunktsformelen(p1,p2):
+    x1 = p1[0] # første x koordinat
+    y1 = p1[1] # første y koordinat
+
+    x2 = p2[0] # andre x posisjon
+    y2 = p2[1] # andre y posisjon
+    pos = (y2-y1)/(x2-x1) # Matematikk magic!
+    return pos
+
+def enpunktsformelen(p1,a):
+    x1 = p1[0] # første x koordinat
+    y1 = p1[1] # første y koordinat
+    pos = y1-a * x1 
+    return pos
+
+def finn_linær_funksjon(p1,p2):
+    a = topunktsformelen(p1,p2)
+    b = enpunktsformelen(p1,a)
+    return a, b
+
+# Vi lager oss noen koordinater
+posisjon_1 = [3,4]
+posisjon_2 = [6,2]
+
+# Bruker koordinatene til funksjonene vi har laget.
+c, d = finn_linær_funksjon(posisjon_1,posisjon_2)
+#print(c, d)
+
+e = linær_funksjon(3,c,d)
+#print(e)
+
+fe = linær_funksjon(6,c,d)
+#print(fe)
